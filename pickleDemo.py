@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 class SentimentRecommender:
-    root_model_path = "C:/Users/Satya/sentimentPrediction/models/"
+    root_model_path = "models/"
     sentiment_model_path = "lr_base_model.pkl"
     tfidf_vectorizer_path = "tfidf.pkl"
     best_recommender_path = "best_recommendation_model.pkl"
