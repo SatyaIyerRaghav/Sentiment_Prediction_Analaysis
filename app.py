@@ -20,7 +20,7 @@ def predict():
     if not (sent_reco_output is None):
         return render_template("index.html", output=sent_reco_output)
     else:
-        return render_template("index.html", message_display="User Name doesn't exist. Please provide a valid user!")
+        return render_template("welcome.html", message_display="User Name doesn't exist. Please provide a valid user!")
 
 
 if __name__ == '__main__':
